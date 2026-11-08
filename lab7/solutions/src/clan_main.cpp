@@ -1,4 +1,4 @@
-#include "clan.h"
+#include "../include/clan.hpp"
 #include <iostream>
 #include <ctime>
 #include <sstream>

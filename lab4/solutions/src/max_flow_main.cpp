@@ -1,4 +1,4 @@
-#include "../dinic.cpp"
+#include "max_flow.cpp"
 
 
 int main()

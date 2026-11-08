@@ -1,8 +1,8 @@
 ## 🔍 Лабораторная работа  
-[Лаба](./solution/)  
+[Лаба](./solutions/)  
 
 ## 📄 Отчет  
-[Отчет](./report/Lab_2.pdf) 
+[Отчет](./reports/lab2_report.pdf) 
 
 ## 📄 Условие задания  
 # hard16 Hashcoding против спама

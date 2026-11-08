@@ -6,7 +6,7 @@
 #include <algorithm>
 #include <string>
 
-#include "../rbtree.cpp"
+#include "red_black_tree.cpp"
 
 int main() {
     // Create separate trees for each genre
@@ -22,7 +22,7 @@ int main() {
         genresTrees[genre] = RBTree();
     }
 
-    std::ifstream infile("entrypoint/films.csv");
+    std::ifstream infile("data/films.csv");
     if (!infile.is_open()) {
         std::cout << "Error opening films.csv file.\n";
         return 1;

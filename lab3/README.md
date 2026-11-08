@@ -1,2 +1,2 @@
 ## 📄 Отчет  
-[Отчет](./report/Lab_3_Babich_A_P.pdf) 
+[Отчет](./reports/lab3_report.pdf) 

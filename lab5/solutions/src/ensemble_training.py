@@ -253,8 +253,8 @@ def plot_all_users(
 
 def main():
     global converter_instance
-    stations_df = pd.read_csv("stations.csv")
-    users_df = pd.read_csv("users_public.csv")
+    stations_df = pd.read_csv("data/stations.csv")
+    users_df = pd.read_csv("data/users_public.csv")
 
     converter_instance = CoordinateConverter(users_df['lat'].mean(), users_df['lon'].mean())
 

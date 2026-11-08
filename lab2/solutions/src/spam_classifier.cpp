@@ -1,4 +1,4 @@
-#include "../hashing.cpp"
+#include "feature_hashing.cpp"
 
 #include <string>
 #include <vector>
@@ -10,12 +10,12 @@ int main()
     std::vector<Sample> allData;
     std::vector<Sample> valData;
 
-    if (!read_csv("../entrypoint/data_train.csv", allData))
+    if (!read_csv("data/data_train.csv", allData))
     {
         return 1;
     }
 
-    if (!read_csv("../entrypoint/dataset.csv", valData))
+    if (!read_csv("data/dataset.csv", valData))
     {
         return 1;
     }
